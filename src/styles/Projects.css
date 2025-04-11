@@ -87,7 +87,7 @@
   }
   
   .project-link.github {
-    background-color: var(--text-color);
+    background-color: var(--secondary-color);
     color: white;
   }
   

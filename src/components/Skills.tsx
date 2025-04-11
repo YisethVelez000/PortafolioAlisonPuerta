@@ -7,6 +7,8 @@ const Skills = () => {
     { name: "SQL", level: 75},
     { name: "REST APIs", level: 85 },
     { name : "Java", level: 70 },
+    { name: 'Python', level: 60 },
+    {name: 'Php', level: 60 },
   ]
 
   const frontendSkills = [

@@ -87,7 +87,7 @@ const Experience = () => {
                     <h4>{edu.degree}</h4>
                     <h5>{edu.institution}</h5>
                     <p className="period">{edu.period}</p>
-                    <p>{edu.description}</p>
+                    <p className="description">{edu.description}</p>
                   </div>
                 </div>
               ))}
