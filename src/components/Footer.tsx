@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-logo">
-            <h2>DevName</h2>
+            <h2>Alison Puerta</h2>
             <p>Desarrollador Backend Junior</p>
           </div>
 
@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; {currentYear} Tu Nombre. Todos los derechos reservados.</p>
+          <p>&copy; {currentYear} Alison Puerta. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>
