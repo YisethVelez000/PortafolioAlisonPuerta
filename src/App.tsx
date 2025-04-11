@@ -8,6 +8,7 @@ import Projects from "./components/Projects"
 import Experience from "./components/Experience"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import "./App.css"
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <SpeedInsights/>
     </div>
   )
 }
