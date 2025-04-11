@@ -20,14 +20,15 @@ const Experience = () => {
   const experiences: ExperienceItem[] = [
     {
       id: 1,
-      title: "Desarrollador Backend Junior",
-      company: "Tech Solutions",
-      period: "Enero 2023 - Presente",
+      title: "Practicas Profesionales",
+      company: "Savia Salud Eps",
+      period: "Octubre 2024 - Marzo 2025",
       description: [
-        "Desarrollo y mantenimiento de APIs RESTful con Node.js y Express",
-        "Implementación de autenticación y autorización con JWT",
-        "Optimización de consultas a bases de datos MongoDB y PostgreSQL",
-        "Colaboración en la implementación de CI/CD con GitHub Actions",
+        'Documentación de casos de uso y casos de prueba.',
+        'Colaboración en el desarrollo de nuevas funcionalidades.',
+        'Pruebas de software y aseguramiento de calidad.',
+        'Participación en reuniones de equipo y seguimiento de proyectos.',
+        'Desarrollo de scripts para automatización de pruebas.',
       ],
     },
   ]
@@ -35,17 +36,17 @@ const Experience = () => {
   const education: EducationItem[] = [
     {
       id: 1,
-      degree: "Ingeniería en Sistemas Computacionales",
-      institution: "Universidad Tecnológica",
-      period: "2018 - 2022",
-      description: "Especialización en desarrollo de software y bases de datos.",
+      degree: "Creación De Modelos Y Aplicación De Algoritmos De Clasificación Con Python",
+      institution: "Servicio Nacional de Aprendizaje (SENA)",
+      period: "2023 - 2023",
+      description: "Curso de 48 horas en el que aprendí a crear modelos y aplicar algoritmos de clasificación utilizando Python.",
     },
     {
       id: 2,
       degree: "Bootcamp de Desarrollo Backend",
-      institution: "Coding Academy",
-      period: "2022",
-      description: "Programa intensivo de 3 meses enfocado en Node.js, Express, MongoDB y APIs RESTful.",
+      institution: "EAFIT (NODO)",
+      period: "2023",
+      description: "Programa intensivo de 3 meses en el que adquirí habilidades en desarrollo backend utilizando Java, Spring Boot, bases de datos y Angular.",
     },
   ]
 
