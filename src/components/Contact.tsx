@@ -67,7 +67,7 @@ const Contact = () => {
               <div className="info-icon">📧</div>
               <div className="info-content">
                 <h3>Email</h3>
-                <p>tu.email@ejemplo.com</p>
+                <p>yisethvelez07@gmail.com</p>
               </div>
             </div>
 
@@ -75,7 +75,7 @@ const Contact = () => {
               <div className="info-icon">📱</div>
               <div className="info-content">
                 <h3>Teléfono</h3>
-                <p>+123 456 7890</p>
+                <p>+57 300 6845249</p>
               </div>
             </div>
 
@@ -83,25 +83,8 @@ const Contact = () => {
               <div className="info-icon">📍</div>
               <div className="info-content">
                 <h3>Ubicación</h3>
-                <p>Ciudad, País</p>
+                <p>Medellín, Colombia</p>
               </div>
-            </div>
-
-            <div className="social-links">
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <div className="social-icon">GitHub</div>
-              </a>
-              <a
-                href="https://linkedin.com/in/yourusername"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="LinkedIn"
-              >
-                <div className="social-icon">LinkedIn</div>
-              </a>
-              <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                <div className="social-icon">Twitter</div>
-              </a>
             </div>
           </div>
 
