@@ -6,74 +6,11 @@
 
 .contact-container {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr;
   gap: 3rem;
 }
 
-.contact-info {
-  background-color: var(--bg-light);
-  border-radius: 10px;
-  padding: 2rem;
 
-}
-
-.info-item {
-  background-color: var(--bg-light);
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 1.5rem;
-  text-decoration: none;
-}
-
-.info-icon {
-  background-color: var(--bg-light);
-  font-size: 1.5rem;
-  margin-right: 1rem;
-  color: var(--primary-color);
-  background-color: var(--bg-light);
-  font-size: 1.1rem;
-  text-decoration: none;
-  margin-bottom: 0.25rem;
-}
-
-.info-content::after{
-color: var(--bg-color);
-background-color: var(--bg-color);
-}
-
-.info-content h3 {
-  background-color: var(--bg-light);
-  font-size: 1.1rem;
-  text-decoration: none;
-  margin-bottom: 0.25rem;
-  border-color: var(--bg-color);
-}
-
-.info-content h3::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 30px;
-  height: 2px;
-  background-color: var(--primary-color);
-  border-color: var(--bg-color);
-}
-
-.info-content p {
-  background-color: var(--bg-light);
-  font-size: 1.1rem;
-  text-decoration: none;
-  margin-bottom: 0.25rem;
-  border-color: var(--bg-color);
-}
-
-.info-content a {
-  background-color: var(--bg-light);
-  font-size: 1.0rem;
-  text-decoration: none;
-  margin-bottom: 0%;
-}
 
 .contact-form {
   background-color: var(--bg-color);

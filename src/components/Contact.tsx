@@ -62,31 +62,6 @@ const Contact = () => {
         <p className="section-description">¿Tienes alguna pregunta o propuesta? ¡Escríbeme!</p>
 
         <div className="contact-container">
-          <div className="contact-info">
-            <div className="info-item">
-              <div className="info-icon">📧</div>
-              <div className="info-content">
-                <h3>Email</h3>
-                <p>yisethvelez07@gmail.com</p>
-              </div>
-            </div>
-
-            <div className="info-item">
-              <div className="info-icon">📱</div>
-              <div className="info-content">
-                <h3>Teléfono</h3>
-                <p>+57 300 6845249</p>
-              </div>
-            </div>
-
-            <div className="info-item">
-              <div className="info-icon">📍</div>
-              <div className="info-content">
-                <h3>Ubicación</h3>
-                <p>Medellín, Colombia</p>
-              </div>
-            </div>
-          </div>
 
           <div className="contact-form">
             <form onSubmit={handleSubmit}>
