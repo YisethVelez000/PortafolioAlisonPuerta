@@ -30,18 +30,6 @@ const Experience = () => {
         "Colaboración en la implementación de CI/CD con GitHub Actions",
       ],
     },
-    {
-      id: 2,
-      title: "Practicante de Desarrollo",
-      company: "Digital Innovations",
-      period: "Junio 2022 - Diciembre 2022",
-      description: [
-        "Asistencia en el desarrollo de microservicios con Node.js",
-        "Creación de scripts de migración de datos",
-        "Documentación de APIs con Swagger",
-        "Testing de endpoints con Jest y Supertest",
-      ],
-    },
   ]
 
   const education: EducationItem[] = [
