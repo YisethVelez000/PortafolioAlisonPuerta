@@ -24,7 +24,7 @@ const Hero = () => {
         </div>
         <div className="hero-image">
           <div className="image-container">
-            <img src="/src/assets/apv.png?height=450&width=450" alt="Desarrolladora Backend" />
+            <img src="https://github.com/YisethVelez000/ImgProyectos/blob/main/apv.png?raw=true?height=450&width=450" alt="Desarrolladora Backend" />
           </div>
         </div>
       </div>

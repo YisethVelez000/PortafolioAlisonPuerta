@@ -18,7 +18,7 @@ const Projects = () => {
       description:
         "Una tienda online de ropa con carrito de compras, gestión de usuarios, ordenes de producción y administración de inventario.",
       technologies: ["Node.js", "Express", "MongoDB", "JWT", "Vue.js"],
-      image: "/src/assets/dpsi.png?height=300&width=500",
+      image: "https://github.com/YisethVelez000/ImgProyectos/blob/main/dpsi.png?raw=true?height=300&width=500",
       githubUrl: "https://github.com/Juan-pmb/FrontendDevp.git",
       demoUrl: "https://frontenddevp-1.onrender.com",
     },
