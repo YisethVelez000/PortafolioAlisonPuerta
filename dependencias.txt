@@ -1,0 +1,2 @@
+npm install next react react-dom lucide-react next-themes @radix-ui/react-dropdown-menu @radix-ui/react-slot class-variance-authority clsx && npm install -D tailwindcss postcss autoprefixer tailwindcss-animate 
+&& npx tailwindcss init -p

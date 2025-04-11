@@ -1,0 +1,68 @@
+import "../styles/Footer.css"
+
+const Footer = () => {
+  const currentYear = new Date().getFullYear()
+
+  return (
+    <footer className="footer">
+      <div className="container">
+        <div className="footer-content">
+          <div className="footer-logo">
+            <h2>DevName</h2>
+            <p>Desarrollador Backend Junior</p>
+          </div>
+
+          <div className="footer-links">
+            <div className="footer-links-column">
+              <h3>Navegación</h3>
+              <ul>
+                <li>
+                  <a href="#home">Inicio</a>
+                </li>
+                <li>
+                  <a href="#skills">Habilidades</a>
+                </li>
+                <li>
+                  <a href="#projects">Proyectos</a>
+                </li>
+                <li>
+                  <a href="#experience">Experiencia</a>
+                </li>
+                <li>
+                  <a href="#contact">Contacto</a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="footer-links-column">
+              <h3>Social</h3>
+              <ul>
+                <li>
+                  <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                  </a>
+                </li>
+                <li>
+                  <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+                    LinkedIn
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+                    Twitter
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="footer-bottom">
+          <p>&copy; {currentYear} Tu Nombre. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  )
+}
+
+export default Footer
