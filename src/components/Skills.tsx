@@ -1,5 +1,6 @@
 import "../styles/Skills.css"
 
+
 const Skills = () => {
   const backendSkills = [
     { name: "Node.js", level: 70 },

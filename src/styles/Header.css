@@ -4,6 +4,7 @@
     box-shadow: var(--shadow);
     transition: var(--transition);
     padding: 0%;
+    align-items: left;
   }
   
   .header-container {

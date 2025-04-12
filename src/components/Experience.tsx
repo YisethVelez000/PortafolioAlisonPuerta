@@ -45,9 +45,16 @@ const Experience = () => {
       id: 2,
       degree: "Bootcamp de Desarrollo Backend",
       institution: "EAFIT (NODO)",
-      period: "2023",
-      description: "Programa intensivo de 3 meses en el que adquirí habilidades en desarrollo backend utilizando Java, Spring Boot, bases de datos y Angular.",
+      period: "2023- 2023",
+      description: "Programa intensivo de 6 meses en el que adquirí habilidades en desarrollo backend utilizando Java, Spring Boot, bases de datos y Angular.",
     },
+    {
+      id: 3,
+      degree: "Analisis y Desarrollo de Software",
+      institution: "Servicio Nacional de Aprendizaje (SENA)",
+      period: "2023 - Actualidad",
+      description: "Estudiante de la tecnología en Análisis y Desarrollo de Software, donde estoy adquiriendo habilidades en programación, bases de datos y desarrollo de aplicaciones.",
+    }
   ]
 
   return (

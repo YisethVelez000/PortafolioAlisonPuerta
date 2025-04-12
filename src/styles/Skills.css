@@ -4,7 +4,7 @@
   
   .skills-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1.1rem));
     gap: 3rem;
   }
    
