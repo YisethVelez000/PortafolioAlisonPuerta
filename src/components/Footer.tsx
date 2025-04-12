@@ -43,7 +43,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a href="https://www.linkedin.com/in/ayisethpv/" target="_blank" rel="noopener noreferrer">
-                    LinkedIn
+                    Linkedin
                   </a>
                 </li>
               </ul>

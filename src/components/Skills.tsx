@@ -1,8 +1,9 @@
 import "../styles/Skills.css"
+import { FaNode } from "react-icons/fa";
 
 const Skills = () => {
   const backendSkills = [
-    { name: "Node.js", level: 70 },
+    { name: FaNode, level: 70 },
     { name: "MongoDB", level: 80 },
     { name: "SQL", level: 75},
     { name: "REST APIs", level: 85 },

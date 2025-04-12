@@ -2,7 +2,7 @@
 :root {
   --primary-color: #4f46e5;
   --primary-hover: #4338ca;
-  --secondary-color: #0ea5e9;
+  --secondary-color: #2062f4;
   --text-color: #1f2937;
   --text-light: #6b7280;
   --bg-color: #ffffff;
@@ -11,15 +11,15 @@
   --success-color: #10b981;
   --error-color: #ef4444;
   --container-width: 1200px;
-  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --transition: all 0.3s ease;
+  --shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.1), 0 0 0 -1px rgba(0, 0, 0, 0.06);
+  --transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Dark mode variables */
 .dark-mode {
   --primary-color: #4f46e5;
   --primary-hover: #818cf8;
-  --secondary-color: #0ea5e9;
+  --secondary-color: #2062f4;
   --text-color: #ffffff;
   --text-light: #fdfdfd;
   --bg-color: #000000;
@@ -35,6 +35,8 @@
 }
 
 html {
+  margin: 0%;
+  padding: 0%;
   background-color: var(--bg-color);
 }
 
