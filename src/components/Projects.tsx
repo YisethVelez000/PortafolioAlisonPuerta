@@ -22,6 +22,17 @@ const Projects = () => {
       githubUrl: "https://github.com/Juan-pmb/FrontendDevp.git",
       demoUrl: "https://frontenddevp-1.onrender.com",
     },
+    {
+      id: 2,
+      title: "Iznaflix",
+      description:
+        "Una plataforma para encontrar información sobre el grupo de kpop IZNA, incluyendo su discografía, miembros y más.",
+      technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
+      image : "https://github.com/YisethVelez000/ImgProyectos/blob/main/iznaflix.png?raw=true",
+      githubUrl : "https://github.com/YisethVelez000/iznaflix-app.git",
+      demoUrl: "https://iznaflix.vercel.app/",
+
+    }
 
   ]
 

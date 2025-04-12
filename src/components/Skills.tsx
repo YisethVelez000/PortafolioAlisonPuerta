@@ -72,7 +72,6 @@ const Skills = () => {
             </div>
 
           </div>
-
           <div className="skills-category">
             <h3>Base de Datos</h3>
             <div className="skills-list">
