@@ -8,25 +8,23 @@ const Hero = () => {
           <h1 className="hero-title">
             Hola, soy <span className="highlight">Alison Puerta</span>
           </h1>
-          <h2 className="hero-subtitle">Desarrolladora Backend Junior</h2>
+          <h2 className="hero-subtitle">Desarrolladora Java Junior</h2>
           <p className="hero-description">
-            Especializada en crear soluciones robustas y escalables con Node.js, Express, MongoDB y SQL. Apasionada por
-            la arquitectura de software y las APIs RESTful.
+            Soy una apasionada del desarrollo de software, con un enfoque en la
+            creación de aplicaciones Java. Me encanta aprender y enfrentar nuevos
+            desafíos en el mundo de la programación.
           </p>
           <div className="hero-buttons">
-            <a href="#contact" className="btn btn-primary">
-              Contáctame
-            </a>
             <a href="#projects" className="btn btn-secondary">
               Ver Proyectos
             </a>
           </div>
         </div>
-        <div className="hero-image">
+        {/* <div className="hero-image">
           <div className="image-container">
             <img src="https://github.com/YisethVelez000/ImgProyectos/blob/main/apv.png?raw=true?height=450&width=450" alt="Desarrolladora Backend" />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )

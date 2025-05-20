@@ -31,6 +31,17 @@ const Experience = () => {
         'Desarrollo de scripts para automatización de pruebas.',
       ],
     },
+    {
+      id: 2,
+      title: "Desarrolladora Backend Junior",
+      company: "Nexos Software",
+      period: "Mayo 2025 - Actualidad",
+      description: [
+        'Desarrollo para el sistema Conexiones de Savia Salud EPS.',
+        'Integración de bases de datos MySql.',
+        'Colaboración en el diseño y desarrollo de APIs RESTful.'
+      ],
+    }
   ]
 
   const education: EducationItem[] = [

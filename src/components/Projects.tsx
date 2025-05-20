@@ -14,16 +14,6 @@ const Projects = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "Ecommerce de Ropa",
-      description:
-        "Una tienda online de ropa con carrito de compras, gestión de usuarios, ordenes de producción y administración de inventario.",
-      technologies: ["Node.js", "Express", "MongoDB", "JWT", "Vue.js"],
-      image: "https://github.com/YisethVelez000/ImgProyectos/blob/main/dpsi.png?raw=true?height=300&width=500",
-      githubUrl: "https://github.com/Juan-pmb/FrontendDevp.git",
-      demoUrl: "https://frontenddevp-1.onrender.com",
-    },
-    {
-      id: 2,
       title: "Iznaflix",
       description:
         "Una plataforma para encontrar información sobre el grupo de kpop IZNA, incluyendo su discografía, miembros y más.",

@@ -3,6 +3,7 @@
 import { useState } from "react"
 import "../styles/Header.css"
 import { Moon, Sun } from "lucide-react"
+import { Menu } from "lucide-react"
 
 interface HeaderProps {
   darkMode: boolean
@@ -24,7 +25,7 @@ const Header = ({ darkMode, toggleDarkMode }: HeaderProps) => {
         </div>
 
         <button className="mobile-menu-btn" onClick={toggleMenu} aria-label="Toggle menu">
-          <span className={`hamburger ${menuOpen ? "active" : ""}`}></span>
+          <span className={` ${menuOpen ? "active" : ""}`}> {darkMode ? <Menu color="white"  /> : <Menu className="light-mode-icon"  color="black"  />} </span>
         </button>
 
         <nav className={`nav ${menuOpen ? "open" : ""}`}>
@@ -47,11 +48,6 @@ const Header = ({ darkMode, toggleDarkMode }: HeaderProps) => {
             <li>
               <a href="#experience" onClick={() => setMenuOpen(false)}>
                 Experiencia
-              </a>
-            </li>
-            <li>
-              <a href="#contact" onClick={() => setMenuOpen(false)}>
-                Contacto
               </a>
             </li>
             <li>
